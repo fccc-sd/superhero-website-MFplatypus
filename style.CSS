@@ -1,0 +1,19 @@
+body{
+    background-color:darkgray;
+}
+
+nav{
+    background-color: gray;
+
+}
+
+nav li{ 
+    display: inline;
+    list-style-type:none;
+    padding-right:20px; 
+
+}
+
+img{
+    
+}
