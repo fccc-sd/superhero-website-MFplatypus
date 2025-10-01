@@ -1,10 +1,21 @@
 body{
-    background-color:darkgray;
+    background-color:rgb(204, 204, 204);
+}
+
+h1{
+    border-style:outset;
+    color:;
+    padding:10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h3{
+    clear:both;
+    padding-top: 20px; ;
 }
 
 nav{
-    background-color: gray;
-
+    background-color: rgb(175, 175, 175);
 }
 
 nav li{ 
@@ -14,6 +25,27 @@ nav li{
 
 }
 
-img{
-    
+nav a:link{
+    color:rgb(50, 50, 248)
+}
+
+nav a:visited{
+    color:rgb(50, 50, 248)
+}
+
+img {
+    float:left;
+}
+
+.Mantal{
+    padding-left:500px;
+}
+
+.StoryBoard{
+    border-bottom: solid;
+    border-left:solid;
+    border-right:solid;
+    margin: 10px 60px 10px;
+    padding: 15px;
+    background-color:white ;
 }
