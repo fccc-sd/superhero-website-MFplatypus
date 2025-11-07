@@ -5,14 +5,16 @@ body{
 
 #container{
     background-color: yellow;
-    width: 1020px;
+    height: auto;
+    width: 100%; 
+    max-width: 1020px;
     margin: 0 auto;
 }
 
 header{
     background-color: maroon;
     height: 50px;
-    width: 960px;
+    width: 94%;
     padding: 25px;
     margin: 5px 5px 5px 5px;
 }
@@ -22,7 +24,7 @@ H2{
 nav{
     background-color: maroon;
     color:yellow;
-    width: 990px;
+    width: 97%;
     padding: 10px;
     margin: 5px 5px 5px 5px;
 }
@@ -35,8 +37,8 @@ nav li{
 
 section{
     background-color: maroon;
-    width: 480px;
-    height: 400px;
+    width: 47%;
+    height: 720px;
     padding: 10px;
     margin: 5px 5px 5px 5px;
     float: left;
@@ -44,8 +46,8 @@ section{
 
 aside{
     background-color: maroon;
-    width: 480px;
-    height: 400px;
+    width: 47%;
+    height: 720px;
     padding: 10px;
     margin: 5px 5px 5px 5px;
     float: right;
@@ -58,4 +60,8 @@ footer{
 
 h6 {
     font-family:georgia;  
+}
+
+image section{
+    max-width: 100%;
 }

@@ -5,14 +5,16 @@ body{
 
 #container{
     background-color: yellow;
-    width: 1020px;
+    height: auto;
+    width: 100%; 
+    max-width: 1020px;
     margin: 0 auto;
 }
 
 header{
     background-color: maroon;
     height: 50px;
-    width: 960px;
+    width: 94%;
     padding: 25px;
     margin: 5px 5px 5px 5px;
 }
