@@ -15,8 +15,8 @@ header{
     background-color: maroon;
     height: 50px;
     width: 94%;
-    padding: 25px;
-    margin: 5px 5px 5px 5px;
+    padding: 2.49%;
+    margin: .49% .49% .49% .49%;
 }
 H2{
     color:yellow;
@@ -26,7 +26,7 @@ nav{
     color:yellow;
     width: 97%;
     padding: 10px;
-    margin: 5px 5px 5px 5px;
+    margin: .49% .49% .49% .49%;
 }
 
 nav li{
@@ -39,8 +39,8 @@ section{
     background-color: maroon;
     width: 47%;
     height: 720px;
-    padding: 10px;
-    margin: 5px 5px 5px 5px;
+    padding: .98%;
+    margin: .49% .49% .49% .49%;
     float: left;
 }
 
@@ -48,8 +48,8 @@ aside{
     background-color: maroon;
     width: 47%;
     height: 720px;
-    padding: 10px;
-    margin: 5px 5px 5px 5px;
+    padding: .98%;
+    margin: .49% .49% .49% .49%;
     float: right;
 }
 
@@ -63,5 +63,14 @@ h6 {
 }
 
 image section{
-    max-width: 100%;
+    width: 100%;
+    max-width: 350px;
+}
+
+@media (max-width:660px){
+    aside,section{
+        float:none;
+        width: 100%;
+
+    }
 }
