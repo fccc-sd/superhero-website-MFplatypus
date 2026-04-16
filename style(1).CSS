@@ -56,3 +56,13 @@ img {
 .Test{
     margin-top: 1200;
 }
+
+table{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+td{
+    border: solid 1px black;
+    padding: 4px;
+}
