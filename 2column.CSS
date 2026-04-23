@@ -1,0 +1,76 @@
+body{
+    background-color: maroon;
+}
+
+
+#container{
+    background-color: yellow;
+    height: auto;
+    width: 100%; 
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: maroon;
+    height: 50px;
+    width: 94%;
+    padding: 2.49%;
+    margin: .49% .49% .49% .49%;
+}
+H2{
+    color:yellow;
+}
+nav{
+    background-color: maroon;
+    color:yellow;
+    width: 97%;
+    padding: 10px;
+    margin: .49% .49% .49% .49%;
+}
+
+nav li{
+    display:inline;
+    list-style-type:none;
+    padding-right: 40px;
+}
+
+section{
+    background-color: maroon;
+    width: 47%;
+    height: 720px;
+    padding: .98%;
+    margin: .49% .49% .49% .49%;
+    float: left;
+}
+
+aside{
+    background-color: maroon;
+    width: 47%;
+    height: 720px;
+    padding: .98%;
+    margin: .49% .49% .49% .49%;
+    float: right;
+}
+
+footer{
+    background-color: maroon;
+    clear:both;
+}
+
+h6 {
+    font-family:georgia;  
+}
+
+image section{
+    width: 100%;
+    max-width: 350px;
+}
+
+@media (max-width:660px){
+    aside,section{
+        float:none;
+        width: 100%;
+
+    }
+}
