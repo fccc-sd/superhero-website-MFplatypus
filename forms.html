@@ -13,8 +13,9 @@
     </head>
 
     <body>
+        <div id = "container">
         <header>
-            <H1>Pizza Form</H>
+            <H1 class = "H1pizzaFormat">Pizza Form</H>
         </header>
 
         <nav>
@@ -23,20 +24,23 @@
                 <li><a href="Origin.html" title="Origin & Abilities" style="color: rgb(13, 255, 29)">Origin & Abilities</a></li>
                 <li><a href="army.html" title="army & rebel scum">Enemies & Allies</a></li>
                 <li><a href="table.html" title="Table" style="color: rgb(13, 255, 29)">Table</a></li>
+                <li><a href="forms.html" title="pizza form">Pizza Form</a></li>
             </ul>
         </nav>
 
         <form id="email_form" action="" method="post">
-            <p>Place a name for your order please</p>
+            <h2 class = "pizzaFormat">Personal Details</h2>
             <p>Name: </p> <p><input type="text" name="Customer_Name" id="name"></p>
 
-            <p>Place the address you would like the pizza to be dropped off at</p>
+            
             <p>Address: </p> <p><input type="text" name="Customer_Address" id="address"></p>
 
-            <p>Place a phone number to call you when your order is close by</p>
+            
             <p>Phone Number: </p> <p><input type="text" name="Customer_PhoneNumber" id="phonenumber"></p>
 
-            <p>Pizza Size</p>
+            <h2 class = "pizzaFormat">Order Details</h2>
+
+            <p>Pizza Size:</p>
 
             <input type="radio" name="Pizza_size" id="pizzasize" value="8''">
             <label for="8''">8"</label><br>
@@ -47,7 +51,7 @@
             <input type="radio" name="Pizza_size" id="pizzasize" value="12''">
             <label for="12''">12"</label><br>
 
-            <p>Pizza Toppings</p>
+            <p>Pizza Toppings:</p>
 
             <input type="checkbox" name="Pizza_topping" id="pizzatopping" value="pep">
             <label for="peperoni">Peperoni</label><br>
@@ -64,10 +68,10 @@
             <input type="checkbox" name="Pizza_topping" id="pizzatopping" value="pine">
             <label for="pineapple">Pineapple</label><br>
 
-            <p>Any and all notes for the cook</p>
+            <p>Order Comments: </p><textarea name="chef_comments" id="comments" cols="40" rows="15"></textarea>
 
-            <p>Message: </p><textarea name="chef_comments" id="comments" cols="40" rows="15"></textarea>
-
+            <hr>
             <p><input id="submit" type="submit" value="Submit Order"></p>
         </form>
+        </div>
     </body>
